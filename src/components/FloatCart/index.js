@@ -135,9 +135,7 @@ class FloatCart extends Component {
               <span className="bag__quantity">{cartTotal.productQuantity}</span>
             </span>
             <span className="header-title">Shopping Cart 🛒</span>
-          </div>
-
-                
+          </div> 
           <div className="float-cart__shelf-container">
             {products}
             {!products.length && (
