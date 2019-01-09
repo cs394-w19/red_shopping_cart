@@ -141,7 +141,7 @@ class FloatCart extends Component {
             {products}
             {!products.length && (
               <p className="shelf-empty">
-                Add some products in the bag <br />
+                Add some products in the Cart <br />
                 :)
               </p>
             )}
